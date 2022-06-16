@@ -1,0 +1,139 @@
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+.cont-s-1 {
+  animation: conts1 350ms ease forwards;
+}
+
+.cont-s-2 {
+  animation: conts2 350ms ease forwards;
+}
+
+.line1-s1 {
+  animation: anime1s1 350ms ease forwards;
+}
+
+.line2-s1 {
+  animation: anime2s1 350ms ease forwards;
+}
+
+.line3-s1 {
+  animation: anime3s1 350ms ease forwards;
+}
+
+.line1-s2 {
+  animation: anime1s2 350ms ease forwards;
+}
+
+.line2-s2 {
+  animation: anime2s2 350ms ease forwards;
+}
+
+.line3-s2 {
+  animation: anime3s2 350ms ease forwards;
+}
+
+@keyframes conts1 {
+  0% {
+    top: 0%;  
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+@keyframes conts2 {
+  0% {
+    top: 0%;  
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+
+@keyframes anime1s1 {
+  from {
+    transform: rotate(-45deg);  
+    top: calc(50% - 1px);  
+  }  
+  to {
+    transform: rotate(0deg);
+    top: 0%;
+  }
+}
+
+@keyframes anime1s2 {
+  from {
+    transform: rotate(0deg);
+    top: 0%;
+  }  
+  to {
+    transform: rotate(-45deg);
+    top: calc(50% - 1px);
+  }
+}
+
+@keyframes anime2s1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anime2s2 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes anime3s1 {
+  from {
+    transform: rotate(45deg);
+    bottom: calc(50% - 1px);
+  }  
+  to {
+    transform: rotate(0deg);
+    bottom: 0%;
+  }
+}
+
+@keyframes anime3s2 {
+  from {
+    transform: rotate(0deg);
+    bottom: 0%;
+  }
+  to {
+    transform: rotate(45deg);
+    bottom: calc(50% - 1px);    
+  }
+}
+
+.polygon {
+  animation: animepolygon 2200ms ease-in-out infinite;
+}
+
+@keyframes animepolygon {
+  0% {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  50% {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  100% {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}
