@@ -79,6 +79,9 @@ const GetTickets = () => {
 };
 
 const SmallMenuItems = () => {
+  const linkStyle =
+    "flex justify-between items-center hover:bg-[#2e2240] py-4 px-6 font-['Nunito_Sans'] font-[400] text-[1.2rem] mb-3 transition-[all] duration-[500ms] ease-out ";
+  const arrowStyle = "w-6";
   return (
     <div className="rounded-[12px] bg-[#150F1E] overflow-hidden w-72 text-white mt-4 ">
       <a href="#home" className={linkStyle}>
@@ -119,6 +122,22 @@ const SmallMenu = () => {
       setIsOpen(true);
     }
   };
+
+  useEffect(() => {
+    let timeout: any;
+
+    if (isOpen) {
+      setOpacity(" opacity-100");
+    } else {
+      timeout = setTimeout(() => {
+        setDisplay(" hidden");
+      }, 500);
+    }
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [isOpen]);
 
   return (
     <div className="lg:hidden flex flex-row justify-between items-end px-10 pb-3 pt-5 fixed inset-0 bottom-auto bg-[#090212] z-[100] ">
@@ -242,6 +261,12 @@ const BigMenu = () => {
 };
 
 const MenuIcon = (props: any) => {
+  const [isActive, setIsActive] = useState(false);
+
+  const toggle = () => {
+    setIsActive(!isActive);
+    props.toggleMenu();
+  };
 
   return (
     <div

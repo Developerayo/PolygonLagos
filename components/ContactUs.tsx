@@ -20,6 +20,11 @@ const ContactUs = () => {
 };
 
 const ContactDetail = () => {
+  const style_1 = "w-7";
+  const style_2 = "flex items-center mb-5 mx-auto w-fit lg:w-full ";
+  const style_3 =
+    "font-['Nunito_Sans'] font-[400] text-[1.2rem] leading-[1.8rem] ml-3 ";
+
   return (
     <div className="text-white max-w-[500px] mx-auto px-8 lg:max-w-[480px] lg:px-12 ">
       <div className="hidden lg:block mb-24 ">
