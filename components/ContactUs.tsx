@@ -60,18 +60,22 @@ const Form = () => {
     " bg-[#150F1E] border-[2px] border-[#352E47] rounded-[8px] w-full mb-6 py-[10px] px-[15px] ";
   return (
     <div className='text-white px-8 lg:pr-12 lg:pl-4 font-["Nunito_Sans"] font-[400] text-[16px] '>
-      <input className={inputStyle} placeholder={"Full name"} />
-      <input className={inputStyle} placeholder={"Email address"} />
-      <input className={inputStyle} placeholder={"Subject"} />
+      <form action="https://formspree.io/f/xpzbngra" method="POST">
+      <input className={inputStyle} placeholder={"Full name"} type="name" name="name" />
+      <input className={inputStyle} placeholder={"Email address"} type="email" name="email" />
+      <input className={inputStyle} placeholder={"Subject"} type="subject" name="subject" />
       <textarea
         className={inputStyle}
         rows={5}
         placeholder={"Your message"}
         style={{ resize: "none" }}
+        type="message"
+        name="message"
       />
-      <button className="rounded-[8px] bg-[#8347E5] w-full py-3 ">
+      <button className="rounded-[8px] bg-[#8347E5] w-full py-3" type="submit">
         Send Message
       </button>
+      </form>
     </div>
   );
 };
