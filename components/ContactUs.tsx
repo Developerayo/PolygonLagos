@@ -69,7 +69,6 @@ const Form = () => {
         rows={5}
         placeholder={"Your message"}
         style={{ resize: "none" }}
-        type="message"
         name="message"
       />
       <button className="rounded-[8px] bg-[#8347E5] w-full py-3" type="submit">
