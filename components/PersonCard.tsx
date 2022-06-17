@@ -14,6 +14,7 @@ const PersonCard = (props: any) => {
           width={100}
           layout="responsive"
           alt="person"
+          loading="eager"
         />
       </div>
       <div className="absolute inset-0 top-auto bg-[#150F1E] py-[10px] px-[14px] ">
