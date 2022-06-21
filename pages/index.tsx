@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className='bg-[#090212] max-w-[1440px] mx-auto '>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <title>Polygon Guild Lagos</title>
         <meta name="title" content="Polygon Guild Lagos" />
         <meta
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="/main.png"
+          content="/main.jpeg"
         />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="twitter:image"
-          content="/main.png"
+          content="/main.jpeg"
         />
       </Head>
       <Header />
