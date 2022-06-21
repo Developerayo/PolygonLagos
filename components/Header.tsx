@@ -24,13 +24,13 @@ const Header = () => {
         <div className="lg:w-[58%] ">
           <div className='max-w-[640px] mx-auto lg:max-w-[750px] lg:ml-auto lg:mr-0 font-["Nunito_Sans"] font-[700] text-[2.2rem] lg:text-[3.2rem] text-white text-center lg:text-left mb-10 lg:mb-4 px-12 mt-28 '>
             <h1 className="relative w-fit mx-auto lg:mx-0 ">
-              Building Complex Stuff
+              The State of Web3:
               <span className="absolute right-full top-0 bottom-0 flex items-center ">
                 <Shape2 className="w-32 mr-6 " />
               </span>
             </h1>
             <h1 className="relative w-fit mx-auto lg:mx-0 ">
-              relating to DeFi
+              Relating to DeFi & NFT
               <span className="absolute left-full top-0 bottom-0 flex items-center ">
                 <Shape2 className="w-32 ml-6 " />
               </span>
@@ -39,9 +39,7 @@ const Header = () => {
 
           <div className='max-w-[640px] mx-auto lg:max-w-[750px] lg:ml-auto lg:mr-0 font-["Nunito_Sans"] font-[400] leading-[2.4rem] text-[1.4rem] lg:text-[1rem] lg:leading-[1.8rem] text-white text-center lg:text-left my-10 lg:my-4 px-12 '>
             <p className="text-[#a3a3a3]">
-              As the world is gradually shifting to the Web3 age, the aim and
-              purpose of this event is to bring about an increase in folks who
-              understands the Web3 Space
+            The future web's interface will most likely resemble the current one. The difference is in how websites' information is kept - on the blockchain versus a centralized database.
             </p>
           </div>
 

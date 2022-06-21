@@ -26,13 +26,13 @@ const PersonCard = (props: any) => {
           <span className="text-purple-400 ">{props.positionDetail}</span>
         </p>
         <div className="flex ">
-          <a className={style_1} href={props.socialLinks[0]}>
+          <a className={style_1} href={props.socialLinks[0]} target="_blank">
             <GithubFillLogo />
           </a>
-          <a className={style_1} href={props.socialLinks[1]}>
+          <a className={style_1} href={props.socialLinks[1]} target="_blank">
             <TwitterFillLogo />
           </a>
-          <a className={style_1} href={props.socialLinks[2]}>
+          <a className={style_1} href={props.socialLinks[2]} target="_blank">
             <LinkedinFillLogo />
           </a>
         </div>

@@ -9,8 +9,8 @@ const EventDetails = () => {
       </h1>
       <div className="flex flex-col sm:flex-row max-w-[500px] sm:max-w-[1190px] mx-auto p-5 md:p-0">
         <Event
-          title="15th June, 2022"
-          content="10:00 AM - 04:00 PM"
+          title="15th July, 2022"
+          content="9:00 AM - 04:00 PM"
           img={Calender}
         />
         <Event
