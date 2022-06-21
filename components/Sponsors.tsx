@@ -1,7 +1,4 @@
-import Binance from "../components/icons/BinanceLogo";
-import Meta from "../components/icons/MetaLogo";
-import Google from "../components/icons/GoogleLogo";
-import Amazon from "../components/icons/AmazonLogo";
+import Polygon from "../components/icons/PolygonLogo";
 
 const Sponsors = () => {
   const style_1 = "w-32 sm:w-40 mx-12 my-8 ";
@@ -11,13 +8,14 @@ const Sponsors = () => {
         Our Amazing Sponsors
       </h1>
       <div className="border-[1px] border-[#3f364a] max-w-[1180px] mx-auto flex flex-row flex-wrap justify-center p-4 mt-20 ">
-        <Binance className={style_1} />
-        <Meta className={style_1} />
-        <Google className={style_1} />
-        <Amazon className={style_1} />
-        <Meta className={style_1} />
-        <Google className={style_1} />
-        <Amazon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
+        <Polygon className={style_1} />
       </div>
     </div>
   );
