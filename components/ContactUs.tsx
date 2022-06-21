@@ -34,13 +34,13 @@ const ContactDetail = () => {
       <div className="mb-24 mt-20 lg:mt-0 text-[#A19DAB] ">
         <div className={style_2}>
           <Message className={style_1} />
-          <span className={style_3}>polygonlagosteam@gmail.com</span>
+          <span className={style_3}>shodipovi@gmail.com</span>
         </div>
 
-        <div className={style_2}>
+        {/* <div className={style_2}>
           <Call className={style_1} />
-          <span className={style_3}>{"(+234) 813 143 2189"}</span>
-        </div>
+          <span className={style_3}>{"(+1) 000 0000 000"}</span>
+        </div> */}
 
         <div className={style_2}>
           <Location className={style_1} />
@@ -86,7 +86,7 @@ const ContactHeading = () => {
         Contact Us
       </h1>
       <p className="font-['Nunito_Sans'] font-[400] text-[1.2rem] leading-[1.8rem] text-[#A19DAB] ">
-        Fill out the form and our team will get back to you within 24 hours
+        Fill out the form and our team will get back to you within 48 hours
       </p>
     </>
   );
