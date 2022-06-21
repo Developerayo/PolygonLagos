@@ -12,37 +12,37 @@ const Home: NextPage = () => {
   return (
     <div className='bg-[#090212] max-w-[1440px] mx-auto '>
       <Head>
-      <link rel="icon" href="/favicon.ico" />   
-  <title>Polygon Guild Lagos</title>
-  <meta name="title" content="Polygon Guild Lagos" />
-  <meta
-    name="description"
-    content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
-  />
-  {/* Open Graph / Facebook */}
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://polygonlagos.com" />
-  <meta property="og:title" content="Polygon Guild Lagos" />
-  <meta
-    property="og:description"
-    content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
-  />
-  <meta
-    property="og:image"
-    content="/main.png"
-  />
-  {/* Twitter */}
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://polygonlagos.com" />
-  <meta property="twitter:title" content="Polygon Guild Lagos" />
-  <meta
-    property="twitter:description"
-    content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
-  />
-  <meta
-    property="twitter:image"
-    content="/main.png"
-  />
+        <link rel="icon" href="/favicon.ico" />
+        <title>Polygon Guild Lagos</title>
+        <meta name="title" content="Polygon Guild Lagos" />
+        <meta
+          name="description"
+          content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
+        />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://polygonlagos.com" />
+        <meta property="og:title" content="Polygon Guild Lagos" />
+        <meta
+          property="og:description"
+          content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
+        />
+        <meta
+          property="og:image"
+          content="/main.png"
+        />
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://polygonlagos.com" />
+        <meta property="twitter:title" content="Polygon Guild Lagos" />
+        <meta
+          property="twitter:description"
+          content="Polygon Guild Lagos is a community for everyone looking to learn more about Web3 or get up to speed Founded by Shodipo Ayomide, Global Head of Developer Advocacy at Polygon."
+        />
+        <meta
+          property="twitter:image"
+          content="/main.png"
+        />
       </Head>
       <Header />
       <EventDetails />
