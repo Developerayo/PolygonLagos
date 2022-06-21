@@ -13,6 +13,7 @@ const Home: NextPage = () => {
     <div className='bg-[#090212] max-w-[1440px] mx-auto '>
       <Head>
       <>
+      <link rel="icon" href="/favicon.ico" />   
   <title>Polygon Guild Lagos</title>
   <meta name="title" content="Polygon Guild Lagos" />
   <meta
