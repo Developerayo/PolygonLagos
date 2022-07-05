@@ -20,3 +20,5 @@ export const event = ({ action, category, label, value }: GTagEvent) => {
     value: value
   });
 };
+
+export default GA_TRACKING_ID;

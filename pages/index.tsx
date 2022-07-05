@@ -1,6 +1,4 @@
 import type { NextPage } from 'next'
-import { Main, NextScript } from "next/document";
-import { GA_TRACKING_ID } from "./utils/gtag";
 import Head from 'next/head'
 import Header from '../components/Header'
 import EventDetails from '../components/EventDetails'
@@ -45,36 +43,18 @@ const Home: NextPage = () => {
           property="twitter:image"
           content="/main.jpeg"
         />
-        <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-LSV71S0FNP`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_TRACKING_ID}', {
-                page_path: window.location.pathname,
-              });
-          `
-            }}
-          />
-      </Head>
+      </Head>           
       <Header />
-      <Main />
-      <NextScript />
       <EventDetails />
       <div id='speakers'></div>
       <MeetTheSpeakers />
       <div id='sponsors'></div>
       <Sponsors />
       <div id='organizers'></div>
-      <MeetTheOrganizers />
-      <div id='contactus' ></div>
+      <MeetTheOrganizers />    
+      <div id='contactus' ></div>  
       <ContactUs />
-      <Footer />
+      <Footer />      
     </div>
   )
 }
