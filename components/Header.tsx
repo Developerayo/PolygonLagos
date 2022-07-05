@@ -30,7 +30,7 @@ const Header = () => {
               </span>
             </h1>
             <h1 className="relative w-fit mx-auto lg:mx-0 ">
-              Relating to DeFi & NFT
+              DeFi & NFT
               <span className="absolute left-full top-0 bottom-0 flex items-center ">
                 <Shape2 className="w-32 ml-6 " />
               </span>
